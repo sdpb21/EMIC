@@ -1,0 +1,3 @@
+EMIC:setInput(DEV:_api/Indicator/Led/led.emic)
+
+EMIC:copy(DEV:_main/src/main.cpp > TARGET:src/main.cpp)

@@ -1,0 +1,3 @@
+EMIC:setInput(DEV:_api/Indicator/Led/led.emic)
+
+EMIC:setInput(DEV:_main/main.emic)
