@@ -1,0 +1,10 @@
+/**
+* @fn void led1(uint16_t status);
+* @alias led1.state
+* @brief Change the state of the led
+* @return Nothing
+* @param status 1-on 0-off 2-toggle
+*/
+
+EMIC:copy(inc/led.h > TARGET:inc/led.h)
+EMIC:copy(src/led.c > TARGET:src/led.c)

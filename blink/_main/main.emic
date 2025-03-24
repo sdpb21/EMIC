@@ -1,0 +1,15 @@
+/**
+* @fn extern void onReset();
+* @alias onReset
+* @brief When module and all it's functions are ready
+* @return Nothing
+*/
+
+/**
+* @fn extern void systemConfig();
+* @alias systemConfig
+* @brief Before initialize drivers, recommended for initialize system variables.
+* @return Nothing
+*/
+
+EMIC:copy(src/main.cpp > TARGET:src/main.cpp)
