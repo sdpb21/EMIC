@@ -1,4 +1,6 @@
 EMIC:copy(SYS:userFncFile.c > TARGET:src/userFncFile.c)
+EMIC:copy(SYS:inc/userFncFile.h > TARGET:inc/userFncFile.h)
+EMIC:copy(SYS:inc/userVars.h > TARGET:inc/userVars.h)
 
 EMIC:setInput(DEV:_api/Indicator/Led/led.emic)
 
